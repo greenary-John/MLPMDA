@@ -1,5 +1,5 @@
 function [kd,km] = gaussiansimilarity(interaction,nd,nm)
-%²Î¿¼£ºPredicting miRNA-disease association based on inductive matrix completion, Bioinformatics. 34 (2018) 4256¨C4265.
+ %referenceï¼šPredicting miRNA-disease association based on inductive matrix completion, Bioinformatics. 34 (2018) 4256Â¨C4265.
  gamad = nd/(norm(interaction,'fro')^2);
 
 %calculate Gaussian kernel for the similarity between disease: kd
