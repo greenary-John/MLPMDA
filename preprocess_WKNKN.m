@@ -1,5 +1,5 @@
 function Y=preprocess_WKNKN(Y,Sd,St,K,eta)
-%iCircDA-MF: identification of circRNA-disease associations based on matrix factorization, Brief. Bioinform. 21 (2020) 1356-1367
+%reference：iCircDA-MF: identification of circRNA-disease associations based on matrix factorization, Brief. Bioinform. 21 (2020) 1356-1367
 %preprocess_WKNKN preprocesses the interaction matrix Y by replacing each
 %of the 0's (i.e. presumed non-interactions) with a continuous value
 %between 0 and 1. For each 0, the K nearest known miRNAs are used to infer
